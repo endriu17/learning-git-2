@@ -1,0 +1,35 @@
+$background1: #f1f0e7;
+$background2: #e0d69e;
+$font: 'Quattrocento Sans', sans-serif;
+$font-color: #302f2f;
+
+body    {
+    margin: 0;
+    padding: 0;
+    background-color: $background1;
+    font-family: $font;
+}
+
+.song   {
+    width: 60%;
+    margin: 50px auto;
+    padding: 2% 5%;
+    background-color: $background2;
+    h1 {
+        text-align: center;
+        font-size: 2.1em;
+    }
+    h2  {
+        font-style: italic;
+        font-size: 1.9em;
+    }
+    h4 {
+        font-weight: normal;
+        font-style: italic;
+        font-size: 1.5em;
+    }
+    p   {
+        font-size: 1.5em;
+    }
+}
+
