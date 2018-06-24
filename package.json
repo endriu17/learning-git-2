@@ -4,7 +4,8 @@
   "description": "https://endriu17.github.io/learning-git-2/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prefixer": "autoprefixer-cli -o style.prefixed.css style.css",
+    "validate": "node_modules/nu-html-checker/bin/cli *.html"
   },
   "repository": {
     "type": "git",
