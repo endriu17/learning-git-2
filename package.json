@@ -6,7 +6,6 @@
   "scripts": {
     "test": "npm run test:html",
     "test:html": "glob-run nu-html-checker *.html",
-<<<<<<< HEAD
 
     "init-project": "npm install && npm-run-all init:*",
 	"init:dirs": "mkdirp sass css vendor images js",
@@ -23,16 +22,6 @@
   "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css",
   "watch:browsersync": "browser-sync start --server --files \"css/*.css\" \"*.html\""
 
-=======
-    "build": "npm run build:clean && npm run build:sass && npm run build:autoprefixer && npm run test",
-    "build:clean": "rimraf css/*",
-    "build:sass": "sass --sourcemap=none --update sass:css",
-    "build:autoprefixer": "autoprefixer-cli css/style.css",
-    "watch": "parallelshell \"npm run watch:sass\" \"npm run watch:autoprefixer\" \"npm run watch:browsersync\" ",
-    "watch:sass": "sass --watch sass:css",
-    "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css",
-    "watch:browsersync": "browser-sync start --server --files \"css/*.css\" \"*.html\""
->>>>>>> task-6
   },
   "keywords": [],
   "author": "",
